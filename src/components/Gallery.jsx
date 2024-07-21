@@ -3,7 +3,7 @@ import GaleriaDeImagenes from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
 
 const tituloStyle = {
-  marginBottom: '20px', 
+  marginBottom: '30px', 
   padding: '10px', 
   fontSize: '2rem', 
   lineHeight: '1.2'

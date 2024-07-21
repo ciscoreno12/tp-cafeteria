@@ -8,6 +8,15 @@ export const styles = {
       padding: '20px',
     },
 
+    
+    sectionStyle: {
+      marginBottom: '15px',
+      borderRadius: '8px',
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+      textAlign: 'center',
+      backgroundColor: '#d2b48a'
+    },
+
     fondoTransparente: {
       position: 'absolute',
       top: 0,
