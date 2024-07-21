@@ -12,8 +12,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const MainContent = () => {
 
-  
- 
   return (
     <main className="container my-5">
       <section>

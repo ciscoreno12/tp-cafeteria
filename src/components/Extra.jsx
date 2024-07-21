@@ -53,7 +53,7 @@ const Extra = () => {
                 <h2 className="display-4 mb-4 bg-light-brown text-dark p-2 rounded fw-bold" style={styles.tituloStyle}>EXTRA</h2>
                 <div className="row">
                     <div className="col-md-6">
-                        <a href="https://www.youtube.com/watch?v=plantation_video" target="_blank" rel="noopener noreferrer" style={styles.linkStyle}>
+                        <a href="https://www.youtube.com/watch?v=6QgJk1qFIps" target="_blank" rel="noopener noreferrer" style={styles.linkStyle}>
                             <div style={imageContainerStyle}>
                                 <img src={cafePlantacion} alt="Creación del Café" className="zoom-image" style={imageStyle} />
                                 <div style={tituloImageStyle}>PRODUCCIÓN DE CAFÉ</div>
@@ -61,7 +61,7 @@ const Extra = () => {
                         </a>
                     </div>
                     <div className="col-md-6">
-                        <a href="https://youtu.be/6QgJk1qFIps?si=KUV70EU6H5aTJRQF" target="_blank" rel="noopener noreferrer" style={styles.linkStyle}>
+                        <a href="https://www.youtube.com/watch?v=yK7sn4NsfUE" target="_blank" rel="noopener noreferrer" style={styles.linkStyle}>
                             <div style={imageContainerStyle}>
                                 <img src={cafePreparacion} alt="Preparación del Café" className="zoom-image" style={imageStyle} />
                                 <div style={tituloImageStyle}>PREPARACIÓN DE CAFÉ</div>
