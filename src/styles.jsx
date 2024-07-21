@@ -61,7 +61,7 @@ export const styles = {
       display: 'block',
       textDecoration: 'none',
       position: 'relative',
-  }
-  
+    }
+    
   };
   

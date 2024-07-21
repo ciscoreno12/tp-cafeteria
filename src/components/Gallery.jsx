@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import GaleriaDeImagenes from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
-
-const tituloStyle = {
-  marginBottom: '30px', 
-  padding: '10px', 
-  fontSize: '2rem', 
-  lineHeight: '1.2'
-};
+import { styles } from '../styles';
+import fondoGaleria from '../assets/fondo-galeria.jpg'
 
 const Gallery = () => {
   const [images, setImages] = useState([]);
+
+  const fondoGaleriaStyle = {
+      backgroundImage: `url(${fondoGaleria})`,
+      backgroundSize: 'cover',           
+      backgroundPosition: 'center',         
+      backgroundRepeat: 'no-repeat',      
+  }
 
   useEffect(() => {
     fetch('https://api.sampleapis.com/coffee/hot')
@@ -26,9 +28,9 @@ const Gallery = () => {
   }, []);
 
   return (
-    <section id="galeria" className="py-5" style={{ backgroundColor: '#f5f5dc', color: '#8b4513' }}>
+    <section id="galeria" className="py-5" style={fondoGaleriaStyle}>
       <div className="container text-center">
-        <h2 className='display-4 mb-4 bg-light-brown text-dark p-2 rounded fw-bold' style={tituloStyle}>GALERÍA DE IMÁGENES</h2><GaleriaDeImagenes items={images} />
+        <h2 className='display-4 mb-4 bg-light-brown text-dark p-2 rounded fw-bold' style={styles.tituloStyle}>GALERÍA DE IMÁGENES</h2><GaleriaDeImagenes items={images} />
       </div>
     </section>
   );
